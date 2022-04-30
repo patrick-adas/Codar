@@ -1,0 +1,100 @@
+#cabecalho{
+    padding: 1.5rem 0;
+}
+
+.cabecalho-container{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho-container a{
+    text-decoration: none;
+}
+
+.cabecalho-logo{
+    color: var(--vermelho);
+    font-style: italic;
+    font-size: 4.4rem;
+}
+
+.cabecalho-logo span{
+    color: black;
+}
+
+.cabecalho-list{
+    margin-top: 2rem;
+}
+
+.cabecalho-itens{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.cabecalho-login{
+    display: none;
+}
+
+.cabecalho-itens a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 840px){
+
+.cabecalho-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cabecalho-logo{
+    font-size: 3.5rem;
+}
+
+.cabecalho-itens{
+    margin-left: 22px;
+}
+
+.cabecalho-login{
+    display: inline-block;
+    margin-left: 26px;
+    font-size: 1.5rem;
+    background-color: var(--vermelho);
+    padding: 0.6rem 3rem;
+    border-radius: 15px;
+}
+
+.cabecalho-login a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+
+.cabecalho-itens{
+    font-size: 1.4rem;
+}
+
+.cabecalho-itens:hover{
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px black;
+    transition: 0.2s;
+}
+
+
+.cabecalho-login:hover{
+    background-color: black;
+}
+
+}
