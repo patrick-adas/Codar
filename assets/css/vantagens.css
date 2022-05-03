@@ -1,0 +1,134 @@
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.8rem;
+    padding-bottom: 7rem;
+}
+
+.vantagens-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vantagens-image{
+    width: 50%;
+    max-width: 370px;
+}
+
+.vantagens-list{
+    margin-top: 3rem;
+    list-style-image: url('../images/list-icon.png');
+}
+
+.vantagens-itens{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.vantagens-form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.vantagens-paragrafo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.vantagens-tel{
+    background-color: #DCDCDC;
+    border-radius: 11px;
+    border: none;
+    padding: 1.5rem 1rem;
+    width: 80%;
+    max-width: 350px;
+    margin-top: 2rem;
+}
+
+.vantagens-tel::placeholder{
+    font-size: 1.3rem;
+    color: #594F4F;
+}
+
+.vantagens-submit{
+    background-color: var(--vermelho);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 11px;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    width: 95%;
+    max-width: 390px;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 1024px){
+
+.vantagens{
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+
+.vantagens-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 34rem;
+}
+
+.vantagens-image{
+    position: absolute;
+    right: 0;
+}
+
+.vantagens-list{
+    position: absolute;
+    left: 50px;
+}
+
+.vantagens-itens:hover{
+    transition: .2s;
+    padding: .5rem .9rem;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 15px;
+}
+
+.vantagens-form{
+    width: 400px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+
+.vantagens-tel{
+    box-sizing: border-box;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.vantagens-submit{
+    box-sizing: border-box;
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 25px;
+    left: 370px;
+}
+
+.vantagens-submit:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+}
