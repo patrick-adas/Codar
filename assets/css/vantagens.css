@@ -65,7 +65,7 @@
     border-radius: 11px;
     margin-top: 1rem;
     padding: 1rem 1rem;
-    width: 95%;
+    width: 93%;
     max-width: 390px;
     font-size: 1.3rem;
 }
@@ -97,6 +97,7 @@
 .vantagens-itens:hover{
     transition: .2s;
     padding: .5rem .9rem;
+    padding-top: 0;
     box-shadow: 5px 5px 15px black;
     border-radius: 15px;
 }

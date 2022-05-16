@@ -1,0 +1,73 @@
+.coments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.coments-container{
+    background-color: #DCDCDC;
+    margin-top: .4rem;
+    margin-bottom: 2rem;
+    width: 85%;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.coments-perfil{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 7%;
+}
+
+#coments-perfil-persona1{
+    background-image: url('../images/patrick.jpg');
+    background-size: cover;
+}
+
+#coments-perfil-persona2{
+    background-image: url('../images/nic.png');
+    background-size: cover;
+}
+
+.coments-container-personas{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.coments-text{
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.coments-name{
+    font-weight: 500;
+    margin-top: 12px;
+    font-size: 1.7rem;
+}
+
+.coments-empresa{
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1024px){
+
+.coments{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coments-container{
+    margin-left: 40px;
+}
+}
